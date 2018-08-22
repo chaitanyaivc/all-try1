@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src = "alltryscripts.js"></script>
+	</head>
+	<body>
+		<h1 id ="heads" onclick = "changeText(this)">All try</h1>
+		<h2>The XMLHttpRequest Object</h2>
+		<button type="button" onclick="loadDoc()">Change Content</button>
+		<p> Hai how are you?</p>
+		<p>Hope you are good.</p> 
+		<p id = "ajaxdem"></p>
+		<p id = "add"></p>
+		<p id = "mult"></p>
+		<p id = "pers"></p>
+		<p id = "time"></p>
+		<p id = "stringg"></p>
+		<p id = "search"></p>
+		<p id = "arrp"></p>
+		<p id = "dayyy"></p>
+		<p id = "callf"></p>
+		<p id = "lastindOf"></p>
+		<p id = "slici"></p>
+		<p id = "substr"></p>
+		<p id = "replacee"></p>
+		<p id = "tupl"></p>
+		<p id = "conc"></p>
+		<p id = "chara"></p>
+		<p id = "numblu"></p>
+		<p id = "joins"></p>
+		<p id = "dates"></p>
+		<p id = "mathl"></p>
+		<p id = "boolu"></p>
+		<p id="errca"></p>
+		<p id = "cathra"></p>
+		<p id = "cathraa"></p>
+		<p id = "cathraaa"></p>
+		<p id = "hoist"></p>
+		<p id = "thislu"></p>
+		<p id = "thisluu"></p>
+		<p id = "numba"></p>
+		<p id = "getter1"></p>
+		<p id = "setter1"></p>
+		<p id = "counterobject"></p>
+		<p id = "constructors"></p>
+		<p id = "constructorsnthis"></p>
+		<p id = "prototypefun"></p>
+		<p id = "funccall"></p>
+		<p id = "funccall1"></p>
+		<p id = "funcstore"></p>
+		<p id = "selfcall"></p>
+		<p id = "applying"></p>
+		<p id = "cookies"></p>
+		<p id = "rec"></p>
+		<p id = "resize"></p>
+		<p id = "style">Hi bro</p>
+		<p id = "style1">Hi bro</p>
+		<p id = "displaycont"></p>
+		<p id = "printnchange"></p>
+		<p id = "screenSizes"></p>
+		<p id = "navigators"></p>
+		<button onclick="navigators()">Navigators</button><br><br>
+		<button onclick="screenSizes()">screen sizes</button><br><br>
+		<button onclick="printnchange()">print n change</button><br><br>
+		<button onclick="DOMnodes()">DOM nodes</button><br><br>
+		<button onclick="styless()">Stylesss</button><br><br>
+		<button type="button" onclick="document.getElementById('heads').style.color = 'red'">Click Me!</button>
+		<div onmouseover="mouseover(this)" onmouseout="mouseout(this)"
+		style = "background-color: brown; width:120px; height:30px; padding:40px">MOuse over this</div><br>
+		<div onmousedown="mousedown(this)" onmouseup="mouseup(this)"
+		style="background-color:violet;width:120px;height:30px;padding:40px;">Please click Me</div><br><br>
+		<button id="recording">Try it</button>
+		Enter your name:<input type="text" id="name" onchange = "toUpper()"><br><br>
+		<button onclick="cookies()">cookies status:</button><br><br>
+		<button onclick="applying()">Applying</button><br><br>
+		<button onclick="selfcall()">Function self calling</button><br><br>
+		<button onclick="funccall()">Function calling</button><br><br>
+		<button onclick="funccall1()">Function calling 1</button><br><br>
+		<button onclick="funcstore()">Function store</button><br><br>
+		<button onclick="prototypefun()">Constructors and prototype function</button><br><br>
+		<button onclick="constructorsnthis()">Constructors and this</button><br><br>
+		<button onclick="constructors()">Constructors</button><br><br>
+		<button onclick="counterobject()">Counter Object</button><br><br>
+		<button onclick="thislu()">This keyword</button><br><br>
+		<button onclick="getter1()">Getters</button><br><br>
+		<button onclick="setter1()">Setters</button><br><br>
+		<button onclick="hoist()">Hoisting</button><br><br>
+		<button onclick="cathra()">Error Names</button><br><br>
+		<input id="inpisay" type="text">
+		<button type="button" onclick="errca()">Test Input</button><br><br>
+		<form name = "myform" action = "https://www.w3schools.com/js/action_page.php%22" onsubmit = "" >
+			Name:
+			<input type = "text" name = "some" required></input>
+			<input type="submit" value="submit">
+		</form><br><br>
+		<input type="number" id="numb" min="100" max="300">
+		<button onclick="numb()">Number Validation</button><br><br>
+		<button onclick="boolu()">Boolean values</button><br><br>
+		<button onclick="mathl()">Math funcs</button><br><br>
+		<button onclick="dates()">Dates   ...</button><br><br>
+		<button onclick="joins()">join arr</button><br><br>
+		<button onclick="numblu()">Number operations</button><br><br>
+		<button onclick="chara()">chara at</button><br><br>
+		<button onclick="conc()">Concat</button><br><br>
+		<button onclick="tupl()">To up & low</button><br><br>
+		<button onclick="replacee()">Replace</button><br><br>
+		<button onclick="substr()">Substr</button><br><br>
+		<button onclick="slici()">Slice</button><br><br>
+		<button onclick="indOf()">indexOf</button><br><br>
+		<button onclick="lastindOf()">last index Of</button><br><br>
+		<button onclick="myF1()">Addition</button><br><br>
+		<button onclick="myF2()">Multiplication</button><br><br>
+		<button onclick="myF3()">Person object</button><br><br>
+		<button onclick="myF4()">String length</button><br><br>
+		<button onclick="myF5()">Search String</button><br><br>
+		<button onclick="myF6()">Array printing</button><br><br>
+		<button onclick="myF7()">Today</button><br><br>
+		<button onclick="myF8()">callfunc</button><br><br>
+		<button onclick="this.innerHTML=Date()">The time is</button><br><br>
+		<script>
+			var record = document.getElementById("recording");
+			record.addEventListener("mouseover", Entered);
+			record.addEventListener("click", Clicked);
+			record.addEventListener("mouseout", Exitted);
+			function Entered(){
+				document.getElementById("rec").innerHTML += "MOuse Entered<br>";
+			}
+			function Clicked(){
+				document.getElementById("rec").innerHTML += "MOuse Clicked<br>";
+			}
+			function Exitted(){
+				document.getElementById("rec").innerHTML += "MOuse Exitted<br>";
+			}
+			window.addEventListener("resize", function(){
+    		document.getElementById("resize").innerHTML = Math.random();});
+		</script>  
+	</body>
+</html>
